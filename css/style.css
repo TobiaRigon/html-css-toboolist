@@ -21,9 +21,7 @@ header{
     background-color: white;
     height:100px;
     vertical-align:middle;
-    line-height:100px;
-
-    
+    line-height:100px; 
 }
 
 
@@ -34,8 +32,50 @@ header{
 }
 
 H1{
+    font-weight: 900;
     display: inline-block;
     vertical-align:middle;
     font-family: 'Roboto b', sans-serif;
-    font-display: lack900;    
+}
+
+
+/* main */
+main{
+   margin-top: 40px;
+}
+
+section{
+    width: 90%;
+    margin: auto;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    width: 80%;
+    margin: 3px auto;    
+}
+
+
+/* buttons */
+button{
+    font-weight: 700;
+padding:10px;
+margin:15px auto 10px;
+}
+
+
+#bluebutton{
+color: white;
+background-color: rgb(51, 190, 255);
+border-radius: 5px;
+border:0 none;
+}
+
+
+#whitebutton{
+color: rgb(165, 165, 165);
+border-radius: 5px;
+border:1px solid rgb(218, 218, 218);;
 }
