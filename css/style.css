@@ -1,0 +1,41 @@
+/* General */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    background-color: rgb(243, 243, 248);
+}
+
+
+/* Header */
+header{
+    background-color: white;
+    height:100px;
+    vertical-align:middle;
+    line-height:100px;
+
+    
+}
+
+
+.logo{
+    line-height:100px;
+    vertical-align:middle;
+    margin-left: 15px;
+}
+
+H1{
+    display: inline-block;
+    vertical-align:middle;
+    font-family: 'Roboto b', sans-serif;
+    font-display: lack900;    
+}
